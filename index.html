@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of Mahalakshmi - Final Year Computer Science and Engineering Student.">
+    <title>MAHALAKSHMI | Portfolio</title>
+    
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme loading"> <!-- Set default to light theme (white & beige) and lock scroll for loading -->
+
+    <!-- LOADING SCREEN -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-brand">&lt;Mahalakshmi<span>.Dev</span>/&gt;</div>
+        <div class="loading-bar-container">
+            <div class="loading-bar-progress"></div>
+        </div>
+    </div>
+
+    <!-- SCROLL PROGRESS INDICATOR -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <!-- BACKGROUND LIGHT EFFECTS -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- STICKY HEADER / NAVIGATION BAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+                      
+            <!-- Mobile Menu Toggle Hamburger -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <!-- Nav Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#coding-profiles" class="nav-link">Coding Profiles</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN PORTFOLIO SECTIONS -->
+    <main>
+        
+        <!-- HERO / HOME SECTION -->
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight-text">Mahalakshmi</span>
+                </h1>
+   
+                <p class="hero-desc">
+                    A Final Year CSE Student passionate about Software Development, Developing codings, and Problem Solving. I enjoy building applications, learning new technologies, and strengthening my skills in Java, DSA, DBMS, and System Design.
+                </p>
+                
+                <!-- Hero Social Icons -->
+                <div class="hero-socials">
+                    <a href="https://github.com/MahalakshmiChandramohan" target="_blank" rel="noopener noreferrer" class="hero-social-btn" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                 
+                    <a href="https://leetcode.com/u/Mahalakshmi_Chandramohan/" target="_blank" rel="noopener noreferrer" class="hero-social-btn" aria-label="LeetCode Profile">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/mahalakshmi__c" target="_blank" rel="noopener noreferrer" class="hero-social-btn" aria-label="HackerRank Profile">
+                        <i class="fa-brands fa-hackerrank"></i>
+                    </a>
+                    <a href="https://www.codechef.com/users/mahalakshmi_c" target="_blank" rel="noopener noreferrer" class="hero-social-btn" aria-label="CodeChef Profile">
+                        <i class="fa-solid fa-utensils"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section scroll-reveal" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Who I Am</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-column">
+                        <h3>Passionate about Engineering & Solving Problems!</h3>
+                        <p>
+                            I am a final-year <strong>Computer Science and Engineering (CSE)</strong> student with a deep interest in software engineering principles, and clean coding practices. I enjoy solving problems and building efficient applications using clean and simple code.
+                        </p>
+                        <p>
+                            During my academic journey, I have developed a solid foundation in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, and System Design. I am always eager to learn new technologies, improve my skills, and take on challenges that help me grow as a software engineer.
+                        </p>
+<p>I enjoy working both independently and as part of a team, and I am looking forward to contributing to real-world projects while continuously learning and improving.</p>
+                    </div>
+                    
+                    <div class="about-interests-column">
+                        <h3>Key Interests</h3>
+                        <div class="interests-grid">
+                            <div class="interest-card">
+
+                                <div class="interest-icon"><i class="fa-solid fa-database"></i></div>
+                                <div>
+                                    <h4>Database Management Systems</h4>
+                                    <p>Structuring schemas and querying with high performance.</p>
+                                </div>
+                            </div>
+<div class="interest-card">
+                                <div class="interest-icon"><i class="fa-solid fa-code-branch"></i></div>
+                                <div>
+                                    <h4>Data Structures & Algorithms</h4>
+                                    <p>Optimizing code for time & space efficiency.</p>
+                                </div>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon"><i class="fa-solid fa-cubes"></i></div>
+                                <div>
+                                    <h4>Object-Oriented Programming</h4>
+                                    <p>Designing modular, reusable, and maintainable software.</p>
+                                </div>
+                            </div>
+<div class="interest-card">
+                                <div class="interest-icon"><i class="fa-solid fa-database"></i></div>
+                                <div>
+                                    <h4>Software Development</h4>
+                                    <p>Building efficient, scalable, and user-friendly applications using clean coding practices.</p>
+                                </div>
+                            </div>
+<div class="interest-card">
+                                <div class="interest-icon"><i class="fa-solid fa-database"></i></div>
+                                <div>
+                                    <h4>Web Development</h4>
+                                    <p>Developing end-to-end web applications with a focus on functionality and user experience.</p>
+                                </div>
+                            </div>
+                            
+                         
+                                                    </div>
+                    </div>
+                </div>
+
+                <!-- SUBSECTION: EDUCATION & ACHIEVEMENTS (Integrated under About Section) -->
+                <div class="about-subsections">
+                    
+                    <!-- Educational Background Sub-section -->
+                    <div class="education-column">
+                        <h3 class="subsection-title"><i class="fa-solid fa-graduation-cap"></i> Educational Timeline</h3>
+                        <div class="timeline">
+                            <!-- Graduation (B.E.) -->
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-date">2023 - 2027</div>
+                                <h4>B.E. Computer Science and Engineering</h4>
+                                <div class="timeline-institution">K Ramakrishnan College of Technology</div>
+                               
+                                <div class="timeline-score">CGPA: 8.49 / 10.00 (upto 5th Semester)</div>
+                            </div>
+
+                            <!-- High School (XII) -->
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-date">2021 - 2023</div>
+                                <h4>High Secondary (Grade XII)</h4>
+                                <div class="timeline-institution">Cheran Matric Hr Sec School</div>
+                                                                <div class="timeline-score">Percentage: 86.6%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internships Sub-section -->
+                    <div class="internships-column">
+                        <h3 class="subsection-title"><i class="fa-solid fa-briefcase"></i> Internships</h3>
+                        <div class="internships-list">
+                            <!-- Internship 1 -->
+                            <div class="achievement-card">
+                                <div class="achievement-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                <div>
+                                    <h4>Web Development Intern</h4>
+                                    <div class="timeline-institution">CODEBIND TECHNOLOGIES , Trichy.</div>
+                                    <div class="timeline-date" style="margin-top: 4px; margin-bottom: 8px;">June 2025</div>
+                                    <ul>
+                                        <li>Gained hands-on experience in front-end and back-end web development.</li>
+                                        <li>Developed a web project using HTML, CSS, and MySQL integration.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Internship 2 -->
+                            <div class="achievement-card">
+                                <div class="achievement-icon"><i class="fa-solid fa-code-branch"></i></div>
+                                <div>
+                                    <h4>GenAI Powered Data Analytics Job Simulation</h4>
+                                    <div class="timeline-institution">Tata (Virtual)</div>
+                                    <div class="timeline-date" style="margin-top: 4px; margin-bottom: 8px;">April 2026</div>
+                                    <ul>
+                                        <li>Applied data cleaning, analysis, and visualization techniques to extract actionable insights.</li>
+                                        <li>Utilized Generative AI tools to support data-driven business decision-making.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Achievements Sub-section -->
+                    <div class="achievements-column">
+                        <h3 class="subsection-title"><i class="fa-solid fa-trophy"></i> Achievements & Certifications</h3>
+                        <div class="achievements-list">
+                            <!-- Coding achievements -->
+                            <div class="achievement-card">
+                                <div class="achievement-icon"><i class="fa-solid fa-medal"></i></div>
+                                <div>
+                                    <h4>Coding Achievements</h4>
+                                    <ul>
+                                        <li>Solved 150+ DSA problems across LeetCode.</li>
+                                        <li>Solved around 200 problems across HackerRank.</li>
+                                        <li>Gold Badge holder for Python on HackerRank.</li>
+                                        <li>Participated in several Intra-college coding contests.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Certifications -->
+                            <div class="achievement-card">
+                                <div class="achievement-icon"><i class="fa-solid fa-book"></i></div>
+                                <div>
+                                    <h4>Certifications & Hackathons</h4>
+                                    <ul>
+                                        <li>Microsoft Azure Fundamentals – Simplilearn</li>
+                                        <li> AWS Solution Architect – Simplilearn</li>
+                                        <li> Cloud Data Engineer Workshop – CODETALON Academy, Trichy.</li>
+                                        <li>Participant in Hackathon – ARCZON technologies, Trichy.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills-section scroll-reveal" id="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Technical Side</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Programming Languages (Progress Bars) -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-terminal category-icon"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C</span>
+                                    <span class="skill-percentage">60%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development (Progress Bars) -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code category-icon"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3 / Layouts</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">45%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 82%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases (Progress Bars) -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database category-icon"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percentage">68%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Core CSE Subjects (Interactive Badges) -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-gears category-icon"></i>
+                            <h3>Core Subjects</h3>
+                        </div>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge"><i class="fa-solid fa-code"></i> Data Structures & Algorithms</span>
+                            <span class="skill-badge"><i class="fa-solid fa-sitemap"></i> Object-Oriented Programming (OOP)</span>
+                            <span class="skill-badge"><i class="fa-solid fa-server"></i> DBMS</span>
+                            <span class="skill-badge"><i class="fa-solid fa-microchip"></i> Operating Systems</span>
+                            <span class="skill-badge"><i class="fa-solid fa-ethernet"></i> Computer Networks</span>
+<span class="skill-badge"><i class="fa-solid fa-network-wired"></i> Theory Of Computation</span>
+                            <span class="skill-badge"><i class="fa-solid fa-network-wired"></i> Compiler Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects-section scroll-reveal" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Academic & Side Projects</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+			<article class="project-card">
+                        <div class="project-card-header"><i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Word Frequency Counter<br>(Mini-Project)</h3>
+                            <p class="project-description">
+                               A mini-projects done during 2nd Semester for implementing the understanding of logics and concepts of the basic programming language.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">C</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MahalakshmiChandramohan/Datastructure-Project" href="" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for College Management System">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project 1: Student Management System -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">College Management System</h3>
+                            <p class="project-description">
+                                A comprehensive database application built to manage student records, registration processes, marks processing, and search listings with query optimization.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">JDBC</span>
+                                <span class="tag">OOP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MahalakshmiChandramohan/Java-Project" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for College Management System">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </article>
+		<!-- Project 1: Student Management System -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Recycling Centre</h3>
+                            <p class="project-description">
+                                A management system for waste collection, customer information, and recyclable materials. Built using DBMS concepts to ensure efficient data storage, retrieval, and management.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MahalakshmiChandramohan/Database-Project" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for College Management System">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </article>
+
+<!-- Project 1: Student Management System -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Adaptive Quiz System</h3>
+                            <p class="project-description">
+                                A personalized quizzes based on user performance. Implemented features such as question management, score tracking, and adaptive difficulty levels using Java and OOP concepts.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">JDBC</span>
+                                <span class="tag">OOAD Principles</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MahalakshmiChandramohan/OOAD-Project" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for College Management System">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </article>
+<!-- Project 1: Student Management System -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Complaint Management System and Authority Routing<br>(Design Project - Pre-Final Year)</h3>
+                            <p class="project-description">
+                                A well designed Smart Complaint Management System to intelligently route complaints to the right authority, enabling efficient complaint tracking and faster resolution.
+
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">MySQL</span>
+<span class="tag">JDBC</span>
+<span class="tag">OOAD</span>
+<span class="tag">NLP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MahalakshmiChandramohan/OOAD-Project" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for College Management System">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Portfolio Website -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-description">
+                                A highly interactive single-page portfolio crafted with vanilla web technologies, showcasing placement credentials, stats counters, themes, and validation systems.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/mahalakshmi/portfolio-website" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub source code for Portfolio Website">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                                <a href="#hero" class="project-link" aria-label="Live Demo for Portfolio Website">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CODING PROFILES SECTION -->
+        <section class="coding-profiles-section scroll-reveal" id="coding-profiles">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Algorithm Solving</span>
+                    <h2 class="section-title">Coding Profiles</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="coding-profiles-grid">
+                    
+                    <!-- GitHub -->
+                    <div class="profile-card github">
+                        <div class="profile-icon"><i class="fa-brands fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <p class="profile-username">@MahalakshmiChandramohan</p>
+                        <div class="profile-stats">
+                            <div class="counter-num" data-target="06">0</div>
+                            <div class="counter-label">Repositories</div>
+                        </div>
+                        <a href="https://github.com/MahalakshmiChandramohan" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-profile">
+                            <i class="fa-brands "></i> Visit Profile
+                        </a>
+                    </div>
+
+                    <!-- LeetCode -->
+                    <div class="profile-card leetcode">
+                        <div class="profile-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>LeetCode</h3>
+                        <p class="profile-username">@Mahalakshmi_Chandramohan</p>
+                        <div class="profile-stats">
+                            <div class="counter-num" data-target="180">0</div>
+                            <div class="counter-label">Solved Problems</div>
+                        </div>
+                        <a href="https://leetcode.com/u/Mahalakshmi_Chandramohan/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-profile">
+                            <i class="fa-brands "></i> Visit Profile
+                        </a>
+                    </div>
+
+                    <!-- HackerRank -->
+                    <div class="profile-card hackerrank">
+                        <div class="profile-icon"><i class="fa-brands fa-hackerrank"></i></div>
+                        <h3>HackerRank</h3>
+                        <p class="profile-username">@mahalakshmi__c</p>
+                        <div class="profile-stats">
+                            <div class="counter-num" data-target="250">0</div>
+                            <div class="counter-label">Solved Problems</div>
+                        </div>
+                        <a href="https://www.hackerrank.com/profile/mahalakshmi__c" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-profile">
+                            <i class="fa-brands"></i> Visit Profile
+                        </a>
+                    </div>
+
+                    <!-- CodeChef -->
+                    <div class="profile-card codechef">
+                        <div class="profile-icon"><i class="fa-solid fa-utensils"></i></div>
+                        <h3>CodeChef</h3>
+                        <p class="profile-username">@mahalakshmi_c</p>
+                        <div class="profile-stats">
+                            <div class="counter-num" data-target="34">0</div>
+                            <div class="counter-label">Solved Problems</div>
+                        </div>
+                        <a href=https://www.codechef.com/users/mahalakshmi_c" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-profile">
+                            <i class="fa-solid "></i> Visit Profile
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION -->
+        <section class="resume-section scroll-reveal" id="resume">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Credentials Summary</span>
+                    <h2 class="section-title">Resume</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="resume-container">
+                    <div class="resume-card">
+                        <div class="resume-card-glow"></div>
+                        <div class="resume-card-icon"><i class="fa-solid fa-file-pdf"></i></div>
+                        <h3>Academic Resume Preview</h3>
+                        <p>
+                            Interested in my background and certifications? <br>Click below to download the latest copy of my professional resume in PDF format.
+                        </p>
+                        
+                        <div class="resume-preview-details">
+                            <div class="preview-detail-item">
+                                <h4>Degree Focus</h4>
+                                <p><b>Computer Science & Engineering</b></p>
+                            </div>
+                            <div class="preview-detail-item">
+                                <h4>Core Strengths</h4>
+                                <p><b>Java, DSA, SQL</b></p>
+                            </div>
+                            <div class="preview-detail-item">
+                                <h4>Graduation Date</h4>
+                                <p><b>Expected May 2027</b></p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://drive.google.com/file/d/1_hWIPhsKTorNiH8M-7UcHNfzRDow9Hxf/view?usp=drivesdk" class="btn btn-primary" download="Mahalakshmi_Resume.pdf" id="resumeSectionDownload">
+                            <i class="fa-solid fa-download"></i> Download Resume PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section scroll-reveal" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Info Column -->
+                    <div class="contact-info-column">
+                        <div>
+                            <h3>Let's Connect</h3>
+                            <p>
+                                I am actively seeking full-time opportunities as an Associate Software Engineer or Software Developer Intern. Feel free to reach out to discuss roles, or technical topics!
+                            </p>
+                            
+                            <div class="contact-details-list">
+                                <!-- Email -->
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="detail-text">
+                                        <span>Email Me</span>
+                                        <a href="mailto:mahaachandramohan@gmail.com">mahaachandramohan@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- LinkedIn -->
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                                    <div class="detail-text">
+                                        <span>Phone Number</span>
+                                        <a href="tel:+916374664258" target="_blank" rel="noopener noreferrer">+91 6374664258</a><br>
+<a href="https://wa.me/916374664258">Chat on WhatsApp</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- GitHub -->
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-brands fa-github"></i></div>
+                                    <div class="detail-text">
+                                        <span>GitHub</span>
+                                        <a href="https://github.com/MahalakshmiChandramohan" target="_blank" rel="noopener noreferrer">github.com/MahalakshmiChandramohan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Mahalakshmi. All rights reserved.</p>
+            <p class="credits">Built using HTML, CSS and JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button class="scroll-to-top-btn" id="scrollTopBtn" aria-label="Scroll to top of the page">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
